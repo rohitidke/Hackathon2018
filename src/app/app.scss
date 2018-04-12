@@ -1,6 +1,15 @@
 // http://ionicframework.com/docs/theming/
 
-
+@font-face {
+    font-family: 'Humanst';
+    src: url('../assets/fonts/roboto-light.woff2') format('woff2'), url('../assets/fonts/roboto-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: 'Humanst';
+  }
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
